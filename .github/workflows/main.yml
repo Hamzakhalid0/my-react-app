@@ -2,8 +2,8 @@ name: AWS-BeanStalk-Pipeline
 
 env:
   APP_S3_BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
-  APP_NAME : "elastic-beanstalk-tutorial"
-  ENV_NAME: "elastic-beanstalk-tutorial-dev"
+  APP_NAME : "my-react-app"
+  ENV_NAME: " my-react-app-dev"
   DEPLOY_PKG_NAME: "deploy-app_${{ github.sha }}.zip"
   AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
 
